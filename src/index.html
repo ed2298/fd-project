@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>html { font-family:Arial; --color:hotpink; }</style>
+    <title>Framework Design Project</title>
+</head>
+<body>
+    <products-app name="Books" buttonColor="#0275d8" cardColor="#5bc0de"></products-app>
+    <script>
+        let products = `[
+            {
+                "id": 1,
+                "title": "One Last Stop",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/41uORm5aOQS._AC_SX184_.jpg",
+                "author": "Casey McQuiston",
+                "price": "$13.99",
+                "old_price": "$16.99",
+                "rating": "4.3 out of 5 (48 ratings)",
+                "color": "84b22f"
+            },
+            {
+                "id": 2,
+                "title": "Ariadne: A Novel",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/41AvaBmddFL._AC_SX184_.jpg",
+                "author": "Jennifer Saint",
+                "price": "$18.42",
+                "old_price": "$26.99",
+                "rating": "4.4 out of 5 (272 ratings)",
+                "color": "674b1b"
+            }
+        ]`;
+        // document.getElementsByTagName('products-app')[0].setAttribute("products", products);
+    </script>
+    
+</body>
+
+</html>
